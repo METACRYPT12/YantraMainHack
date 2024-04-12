@@ -1,0 +1,19 @@
+{
+  "name": "yantramainhack",
+  "version": "1.0.0",
+  "description": "CarbonBytes: Designed to provide a platform for ease of visualisation and management of Carbon Audit data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/METACRYPT12/YantraMainHack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/METACRYPT12/YantraMainHack/issues"
+  },
+  "homepage": "https://github.com/METACRYPT12/YantraMainHack#readme"
+}

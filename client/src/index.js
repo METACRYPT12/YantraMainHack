@@ -7,11 +7,11 @@ import Dualloginpage from "./components/loginpage/loginPage";
 import Impact from "./components/impact/impact";
 import CompanyLogin from "./components/companyLogin/CompanyLogin";
 import About from "./components/about/about";
-
+import About2 from "./components/about/about2";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <About />
+    <About2 />
   </React.StrictMode>
 );
 

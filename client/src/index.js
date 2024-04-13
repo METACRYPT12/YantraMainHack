@@ -4,11 +4,12 @@ import "./index.css";
 //import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Dualloginpage from "./components/loginpage/loginPage";
+import Impact from "./components/impact/impact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Dualloginpage />
+    <Impact />
   </React.StrictMode>
 );
 

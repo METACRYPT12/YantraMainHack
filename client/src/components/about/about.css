@@ -125,10 +125,18 @@
   background-size: cover;
 }
 
-.about .vector {
-  height: 17px;
-  left: 625px;
+.about .ButtonWrapper {
+  height: auto;
+  left: 595px;
+  top: 635px;
+  letter-spacing: 0;
+  line-height: normal;
   position: absolute;
-  top: 682px;
-  width: 29px;
+  text-align: center;
+}
+
+.about .ButtonWrapper .navPage2 {
+  width: 3em;
+  height: 3em;
+  background: url("../../res/down arrow.svg") center no-repeat;
 }

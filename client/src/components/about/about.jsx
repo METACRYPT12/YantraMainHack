@@ -23,7 +23,14 @@ export const About = () => {
             for improvement.
           </p>
           <div className="image"></div>
-          <img className="vector" alt="Vector" src="../../res/downarrow.svg" />
+
+          <div className="ButtonWrapper">
+            <input
+              className={"navPage2"}
+              type="button"
+              //onClick={ }
+            />
+          </div>
         </div>
       </div>
     </div>

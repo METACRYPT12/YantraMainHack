@@ -1,5 +1,5 @@
 import React from "react";
-import "./auditordashboard.css";
+import "./style.css";
 
 export const Imac = () => {
   return (

@@ -38,13 +38,11 @@
 }
 
 .auditor-login .overlap {
-  position: absolute;
-  top: 0%;
-  left: 8.5%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  width: fit-content;
   background-image: url(../../res/background.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 720px;
+  position: relative;
 }
 
 .auditor-login .background {

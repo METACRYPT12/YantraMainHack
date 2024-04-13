@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "cga@gmail.com",
+      "password": "$2b$10$NBtdzLs0PDFWnQkIc2wJYe9Eb7LODcIi/do6JjZxsbN4y.M1tiKiO"
+    },
+    {
+      "email": "Chaitanya@gmail.com",
+      "password": "$2b$10$m7ACIpr0aNBa6Kcy30yvjuXAR1qHiofmtRuwoZRRyCuURAw8mLaDO"
+    }
+  ]
+}

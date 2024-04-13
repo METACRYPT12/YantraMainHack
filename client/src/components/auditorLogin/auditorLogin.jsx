@@ -14,8 +14,7 @@ export const AuditorLogin = () => {
           </p>
           <div className="div">Impact</div>
           <div className="text-wrapper-2">About Us</div>
-          <div className="text-wrapper-3">Login</div>
-          <div className="text-wrapper-4">Welcome Auditor !</div>
+          <div className="text-wrapper-4">Auditor Login</div>
           <div className="rectangle" />
           <div className="text-wrapper-5">username</div>
           <div className="rectangle-2" />

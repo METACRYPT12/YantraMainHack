@@ -5,13 +5,13 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Dualloginpage from "./components/loginpage/loginPage";
 import Impact from "./components/impact/impact";
-import CompanyLogin from "./components/companyLogin/CompanyLogin";
 //import About from "./components/about/about";
 import AboutSecond from "./components/about/about-second";
+import AuditorLogin from "./components/auditorLogin/auditorLogin";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AboutSecond />
+    <AuditorLogin />
   </React.StrictMode>
 );
 

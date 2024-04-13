@@ -3,21 +3,28 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
 .about .overlap-group-wrapper {
   background-color: #ffffff;
-  height: 720px;
-  width: 1280px;
-}
-
-.about .overlap-group {
+  height: inherit;
+  width: inherit;
+  position: relative;
   background-image: url(../../res/background.jpg);
   background-position: 50% 50%;
   background-size: cover;
-  height: 720px;
-  position: relative;
+}
+
+.about .overlap-group {
+  position: absolute;
+  top: 0%;
+  left: 8.5%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  width: fit-content;
 }
 
 .about .carbon-byte {
@@ -25,11 +32,11 @@
   font-family: "Ethnocentric-Regular", Helvetica;
   font-size: 40px;
   font-weight: 400;
-  left: 15px;
+  left: -100px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 31px;
+  top: -9px;
   white-space: nowrap;
 }
 
@@ -50,24 +57,11 @@
   font-family: "Conthrax-SemiBold", Helvetica;
   font-size: 21px;
   font-weight: 600;
-  left: 771px;
+  left: 1178px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 41px;
-  white-space: nowrap;
-}
-
-.about .text-wrapper-2 {
-  color: #ffffff;
-  font-family: "Conthrax-SemiBold", Helvetica;
-  font-size: 21px;
-  font-weight: 600;
-  left: 946px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 41px;
+  top: 55px;
   white-space: nowrap;
 }
 
@@ -76,11 +70,11 @@
   font-family: "Conthrax-SemiBold", Helvetica;
   font-size: 21px;
   font-weight: 600;
-  left: 1165px;
+  left: 1302px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 41px;
+  top: 55px;
   white-space: nowrap;
 }
 
@@ -96,6 +90,8 @@
   position: absolute;
   top: 204px;
   width: 599px;
+  white-space: wrap;
+  text-align: justify;
 }
 
 .about .image {
@@ -107,6 +103,7 @@
   top: 148px;
   width: 431px;
   background-image: url("../../res/industry-about2.jpg");
+  background-size: cover;
 }
 
 .about .vector {

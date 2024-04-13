@@ -13,7 +13,6 @@ export const About = () => {
             <span className="span">yte</span>
           </p>
           <div className="div">Impact</div>
-          <div className="text-wrapper-2">About Us</div>
           <div className="text-wrapper-3">Login</div>
           <p className="p">
             At CarbonByte, our mission is to drive meaningful change by empowering companies and industries to measure,

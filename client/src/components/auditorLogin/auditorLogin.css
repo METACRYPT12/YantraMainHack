@@ -13,7 +13,7 @@
 }
 
 .auditor-login .overlap {
-    background-image: url(../../res/background.jpg);
+  background-image: url(../../res/background.jpg);
   background-position: 50% 50%;
   background-size: cover;
   height: 720px;

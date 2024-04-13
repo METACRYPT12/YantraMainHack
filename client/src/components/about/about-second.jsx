@@ -13,7 +13,6 @@ export const AboutSecond = () => {
             <span className="span">yte</span>
           </p>
           <div className="div">Impact</div>
-          <div className="text-wrapper-2">About Us</div>
           <div className="text-wrapper-3">Login</div>
           <p className="p">
             By offering a comprehensive suite of tools and resources, we enable
@@ -26,7 +25,13 @@ export const AboutSecond = () => {
           </p>
 
           <div className="image"></div>
-          <img className="vector" alt="Vector" src="vector.svg" />
+          <div className="ButtonWrapper">
+            <input
+              className={"navPage1"}
+              type="button"
+              //onClick={ }
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,118 @@
+.about {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about .overlap-group-wrapper {
+  background-color: #ffffff;
+  height: 720px;
+  width: 1280px;
+}
+
+.about .overlap-group {
+  background-image: url(../../res/background.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 720px;
+  position: relative;
+}
+
+.about .carbon-byte {
+  color: #ffffff;
+  font-family: "Ethnocentric-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 31px;
+  white-space: nowrap;
+}
+
+.about .text-wrapper {
+  color: #ffffff;
+  font-family: "Ethnocentric-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.about .span {
+  font-size: 30px;
+}
+
+.about .div {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  left: 771px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  left: 946px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  left: 1165px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.about .p {
+  color: #ffffff;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  height: 328px;
+  left: 607px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 204px;
+  width: 599px;
+}
+
+.about .image {
+  height: 441px;
+  left: 56px;
+  mix-blend-mode: lighten;
+  object-fit: cover;
+  position: absolute;
+  top: 148px;
+  width: 431px;
+  background-image: url("../../res/industry-about2.jpg");
+}
+
+.about .vector {
+  height: 17px;
+  left: 625px;
+  position: absolute;
+  top: 689px;
+  width: 29px;
+}

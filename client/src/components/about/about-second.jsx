@@ -1,7 +1,7 @@
 import React from "react";
-import "./about2.css";
+import "./about-second.css";
 
-export const About2 = () => {
+export const AboutSecond = () => {
   return (
     <div className="about">
       <div className="overlap-group-wrapper">
@@ -33,4 +33,4 @@ export const About2 = () => {
   );
 };
 
-export default About2;
+export default AboutSecond;

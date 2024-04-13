@@ -23,6 +23,7 @@ export const About = () => {
             for improvement.
           </p>
           <div className="image"></div>
+
           <div className="ButtonWrapper">
             <input
               className={"navPage2"}

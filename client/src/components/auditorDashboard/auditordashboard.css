@@ -1,0 +1,794 @@
+.imac {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.imac .overlap-wrapper {
+  background-color: #ffffff;
+  height: 720px;
+  overflow: hidden;
+  width: 1280px;
+}
+
+.imac .overlap {
+  height: 720px;
+  position: relative;
+  width: 1304px;
+  background-image: url(../../res/background.jpg);
+}
+
+.imac .background {
+  height: 720px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.imac .carbon-byte {
+  color: #ffffff;
+  font-family: "Ethnocentric-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 31px;
+  white-space: nowrap;
+}
+
+.imac .text-wrapper {
+  color: #ffffff;
+  font-family: "Ethnocentric-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.imac .span {
+  font-size: 30px;
+}
+
+.imac .group {
+  height: 338px;
+  left: 40px;
+  position: absolute;
+  top: 329px;
+  width: 1264px;
+}
+
+.imac .overlap-group {
+  background-color: #ffffff;
+  border-radius: 15px 15px 0px 0px;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1200px;
+}
+
+.imac .div {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  height: 46px;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1198px;
+}
+
+.imac .overlap-2 {
+  height: 292px;
+  left: 0;
+  position: absolute;
+  top: 46px;
+  width: 1200px;
+}
+
+.imac .rectangle {
+  background-color: #535353;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1200px;
+}
+
+.imac .rectangle-2 {
+  background-color: #ffffff;
+  border-radius: 0px 0px 15px 15px;
+  height: 246px;
+  left: 0;
+  position: absolute;
+  top: 46px;
+  width: 1200px;
+}
+
+.imac .line {
+  height: 246px;
+  left: 111px;
+  position: absolute;
+  top: 46px;
+  width: 2px;
+}
+
+.imac .img {
+  height: 246px;
+  left: 221px;
+  position: absolute;
+  top: 46px;
+  width: 2px;
+}
+
+.imac .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  height: 34px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 110px;
+}
+
+.imac .line-2 {
+  height: 246px;
+  left: 351px;
+  position: absolute;
+  top: 45px;
+  width: 2px;
+}
+
+.imac .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  height: 34px;
+  left: 113px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 110px;
+}
+
+.imac .line-3 {
+  height: 246px;
+  left: 582px;
+  position: absolute;
+  top: 46px;
+  width: 2px;
+}
+
+.imac .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  height: 34px;
+  left: 233px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 110px;
+}
+
+.imac .line-4 {
+  height: 246px;
+  left: 774px;
+  position: absolute;
+  top: 46px;
+  width: 2px;
+}
+
+.imac .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  height: 25px;
+  left: 626px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+}
+
+.imac .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  height: 25px;
+  left: 410px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+}
+
+.imac .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  height: 25px;
+  left: 812px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+}
+
+.imac .line-5 {
+  height: 246px;
+  left: 979px;
+  position: absolute;
+  top: 46px;
+  width: 2px;
+}
+
+.imac .line-6 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 107px;
+  width: 1200px;
+}
+
+.imac .line-7 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 168px;
+  width: 1200px;
+}
+
+.imac .line-8 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 229px;
+  width: 1200px;
+}
+
+.imac .line-9 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 1200px;
+}
+
+.imac .text-wrapper-8 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 54px;
+  width: 110px;
+}
+
+.imac .text-wrapper-9 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 115px;
+  width: 110px;
+}
+
+.imac .text-wrapper-10 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 176px;
+  width: 110px;
+}
+
+.imac .text-wrapper-11 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 237px;
+  width: 110px;
+}
+
+.imac .text-wrapper-12 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 54px;
+  width: 110px;
+}
+
+.imac .text-wrapper-13 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 115px;
+  width: 110px;
+}
+
+.imac .text-wrapper-14 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 176px;
+  width: 110px;
+}
+
+.imac .text-wrapper-15 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 112px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 237px;
+  width: 110px;
+}
+
+.imac .text-wrapper-16 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 232px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 116px;
+  width: 110px;
+}
+
+.imac .text-wrapper-17 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 233px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 177px;
+  width: 110px;
+}
+
+.imac .text-wrapper-18 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 47px;
+  left: 232px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 237px;
+  width: 110px;
+}
+
+.imac .text-wrapper-19 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 23px;
+  left: 236px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 65px;
+  width: 101px;
+}
+
+.imac .text-wrapper-20 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 44px;
+  left: 383px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 57px;
+  width: 155px;
+}
+
+.imac .text-wrapper-21 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 32px;
+  left: 400px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  width: 122px;
+}
+
+.imac .text-wrapper-22 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 40px;
+  left: 410px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 102px;
+}
+
+.imac .text-wrapper-23 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 31px;
+  left: 398px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 242px;
+  width: 125px;
+}
+
+.imac .text-wrapper-24 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 35px;
+  left: 799px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  width: 142px;
+}
+
+.imac .text-wrapper-25 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 23px;
+  left: 803px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 131px;
+  width: 134px;
+}
+
+.imac .text-wrapper-26 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 22px;
+  left: 813px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 193px;
+}
+
+.imac .text-wrapper-27 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 32px;
+  left: 789px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 245px;
+  width: 162px;
+}
+
+.imac .text-wrapper-28 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 22px;
+  left: 637px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 251px;
+}
+
+.imac .text-wrapper-29 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 41px;
+  left: 628px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 181px;
+  width: 106px;
+}
+
+.imac .text-wrapper-30 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 22px;
+  left: 633px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+}
+
+.imac .text-wrapper-31 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  height: 22px;
+  left: 638px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 128px;
+}
+
+.imac .material-symbols {
+  height: 24px;
+  left: 1083px;
+  position: absolute;
+  top: 65px;
+  width: 24px;
+}
+
+.imac .material-symbols-2 {
+  height: 24px;
+  left: 1083px;
+  position: absolute;
+  top: 249px;
+  width: 24px;
+}
+
+.imac .material-symbols-3 {
+  height: 24px;
+  left: 1083px;
+  position: absolute;
+  top: 189px;
+  width: 24px;
+}
+
+.imac .material-symbols-4 {
+  height: 24px;
+  left: 1083px;
+  position: absolute;
+  top: 126px;
+  width: 24px;
+}
+
+.imac .text-wrapper-32 {
+  color: #ffffff;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  height: 25px;
+  left: 1039px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+}
+
+.imac .overlap-group-wrapper {
+  height: 58px;
+  left: 527px;
+  position: absolute;
+  top: 205px;
+  width: 230px;
+}
+
+.imac .register-new-company-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  box-shadow: -5px 5px 3px #ffffff66;
+  height: 58px;
+  position: relative;
+  width: 228px;
+}
+
+.imac .register-new-company {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+}
+
+.imac .div-wrapper {
+  height: 40px;
+  left: 175px;
+  position: absolute;
+  top: 214px;
+  width: 230px;
+}
+
+.imac .overlap-3 {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  box-shadow: -5px 5px 3px #ffffff66;
+  height: 40px;
+  position: relative;
+  width: 228px;
+}
+
+.imac .text-wrapper-33 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.imac .group-2 {
+  height: 40px;
+  left: 878px;
+  position: absolute;
+  top: 214px;
+  width: 230px;
+}
+
+.imac .text-wrapper-34 {
+  color: #000000;
+  font-family: "Conthrax-SemiBold", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.imac .group-3 {
+  height: 69px;
+  left: 1166px;
+  position: absolute;
+  top: 20px;
+  width: 69px;
+}
+
+.imac .profile {
+  background-image: url(../../res/profile.jpg);
+}
+.imac .material-symbols-2 {
+  background-image: url(../../res/ms2.jpg);
+}
+.imac .material-symbols-3 {
+  background-image: url(../../res/ms3.jpg);
+}
+.imac .material-symbols-4 {
+  background-image: url(../../res/ms4.jpg);
+}

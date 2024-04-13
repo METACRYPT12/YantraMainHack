@@ -25,6 +25,7 @@ export const AboutSecond = () => {
           </p>
 
           <div className="image"></div>
+
           <div className="ButtonWrapper">
             <input
               className={"navPage1"}

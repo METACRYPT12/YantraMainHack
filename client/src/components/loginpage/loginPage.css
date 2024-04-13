@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Ethnocentric-Regular";
+  src: url("../../fonts/ethnocentric-rg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Conthrax-SemiBold";
+  src: url("../../fonts/conthrax-sb.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../fonts/Poppins-Regular.ttf") format("tff");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../../fonts/Poppins-SemiBold.ttf") format("tff");
+}
+
 .Dualloginpage {
   background-color: #ffffff;
   display: flex;
@@ -36,7 +56,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: -10px;
+  top: -9px;
   white-space: nowrap;
 }
 
@@ -65,7 +85,6 @@
   white-space: nowrap;
 }
 
-
 .Dualloginpage .text-wrapper-2 {
   color: #ffffff;
   font-family: "Conthrax-SemiBold", Helvetica;
@@ -82,7 +101,7 @@
 .Dualloginpage .div a,
 .Dualloginpage .text-wrapper-2 a {
   color: #ffffff;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .Dualloginpage .text-wrapper-4 {
@@ -175,7 +194,6 @@
   position: absolute;
   text-align: center;
   transform: translate(-50%, -50%);
-  
 }
 
 .Dualloginpage .ButtonWrapper .AuditorLoginBtn {

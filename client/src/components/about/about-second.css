@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Ethnocentric-Regular";
+  src: url("../../fonts/ethnocentric-rg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Conthrax-SemiBold";
+  src: url("../../fonts/conthrax-sb.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../../fonts/Poppins-Regular.ttf") format("tff");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../../fonts/Poppins-SemiBold.ttf") format("tff");
+}
+
 .about {
   background-color: #ffffff;
   display: flex;
@@ -106,10 +126,18 @@
   background-size: cover;
 }
 
-.about .vector {
-  height: 17px;
-  left: 625px;
+.about .ButtonWrapper {
+  height: auto;
+  left: 595px;
+  top: 635px;
+  letter-spacing: 0;
+  line-height: normal;
   position: absolute;
-  top: 689px;
-  width: 29px;
+  text-align: center;
+}
+
+.about .ButtonWrapper .navPage1 {
+  width: 3em;
+  height: 3em;
+  background: url("../../res/up\ arrow.svg") center no-repeat;
 }

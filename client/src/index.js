@@ -8,10 +8,11 @@ import Impact from "./components/impact/impact";
 import CompanyLogin from "./components/companyLogin/CompanyLogin";
 import About from "./components/about/about";
 import About2 from "./components/about/about2";
+import AuditorLogin from "./components/auditorLogin/auditorLogin";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <About2 />
+    <AuditorLogin />
   </React.StrictMode>
 );
 

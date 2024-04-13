@@ -26,7 +26,7 @@ export const AboutSecond = () => {
           </p>
 
           <div className="image"></div>
-          <img className="vector" alt="Vector" src="vector.svg" />
+          <img className="vector" alt="Vector" src="../../res/uparrow.svg" />
         </div>
       </div>
     </div>
